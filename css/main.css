@@ -1,0 +1,261 @@
+footer{
+	background-color: #202020;
+	width: 100%;
+	/*height: 40px;*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	position: relative;
+	bottom: 0;
+	float: left;
+	margin-top: 20px;
+}
+footer a{
+	color: white;
+
+}
+body{
+	background-image: url(../img/index-bg.jpg);
+	background-position: center;
+}
+.title{
+	color: #ffffff;
+	font-size: 58px;
+	font-weight: 800;
+}
+.topnav{
+	background-color: #505050;
+	opacity: 0.8;
+padding: 7px 7px; 
+display: inline-block;
+width: calc(100% - 110px);
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+
+}
+.mymenu{
+	width: 40px;
+	height: 38px;
+	float: left;
+	margin-right: 5px;
+	cursor: pointer;
+
+}
+.mymenu .myspan{
+	background-color: #ffffff;
+	margin-left: 15%;
+	width: 70%;
+	height: 3px;
+	margin-top: 17%;
+	border-radius: 15%;
+
+}
+.topprofileimg{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	float: right;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	overflow: hidden;
+	margin-right: 7px;
+	display: inline-block;
+	margin-top: -25px;
+}
+.topprofileimg img{
+	height: 100%;
+	width: 100%;
+}
+.menu-items{
+	background-color: #404040;
+	width: 30%;
+	min-height: 420px;
+	float: left;
+}
+.main-menu-items, .questions-dropdown ul li,.past-papers-dropdown ul li{
+	list-style: none;
+	padding: 7px 7px;
+}
+.main-menu-items:hover{
+	background-color: #53c653;
+	padding: 7px 7px;
+}
+.main-menu-items a{
+	color: white;
+}
+.main-menu-items a:hover{
+color: white;
+text-decoration: none;
+
+}
+.hideme{
+	display: none;
+}
+.question:hover .questions-dropdown{
+	display: block;
+
+}
+.maincontainer{
+/*float:left;*/
+padding: 15px 15px;
+min-height: 420px;
+}
+@media only screen and (max-width: 350px){
+	.main-menu-items a{
+	color: white;
+	font-size: 7pt;
+
+}
+
+.past-papers-dropdown ul, .questions-dropdown ul{
+	padding: 0px;
+}
+.topprofileimg{
+	margin-top: 0;
+}
+}
+@media only screen and (max-width: 500px){
+	.main-menu-items a{
+	color: white;
+	font-size: 9pt;
+
+}
+.past-papers-dropdown ul, .questions-dropdown ul{
+	padding-left: 0px;
+}
+}
+@media only screen and (max-width: 590px){
+	.topprofileimg{
+	margin-top: 0;
+}
+}
+.edit-profile-left, .edit-profile-right{
+	float: left;
+	background-color: #e6e6e6;
+	padding: 20px 10px;
+	margin-left: 15px;
+	border-left: 3px solid green;
+	border-radius: 10px;
+	margin-top: 15px;
+
+}
+.edit-right{
+	float: right;
+	padding: 5px 5px;
+	background-color: green;
+	margin-right: 20px;
+	margin-left: 20px;
+	border:  none;
+	border-radius: 5px;
+	color: white;
+	font-size: 10pt;
+	cursor: pointer;
+
+
+}
+.btn-change-password, .choose-profile-img-btn{
+	padding: 5px;
+	color: white;
+	border: none;
+	background-color: green;
+	border-radius: 5px;
+	font-size: 10pt;
+	cursor: pointer;
+	margin-bottom: 15px;
+
+}
+.edit-profile-img{
+	width: 200px;
+	height: 200px;
+	overflow: none;
+	box-shadow: 5px 5px 15px 5px gray;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.edit-profile-img img{
+width: 100%;
+height: 100%;
+}
+.choose-profile-img-btn{
+margin-right: 10px;
+}
+.formbtn{
+margin-top: 15px;
+border: none;
+border-radius: 5px;
+padding: 5px 5px;
+cursor: pointer;
+}
+.mk_payment_btn{
+	width: 50%;
+	height: 40px;
+	border-radius: 10px;
+	border:none;
+	background-color: #66a3ff;
+
+}
+.account_content{
+	background-color: #e6e6e6;
+	padding: 20px 10px;
+	margin-left: 15px;
+	border-left: 3px solid green;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+.pay_log_btn{
+	padding: 7px 7px;
+	border:none;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: #00e64d;
+}
+.pay_log table thead tr th,.pay_log table tbody tr td{
+	padding: 2px 10px;
+
+}
+.handouts_filter_bar,.respond_filter_bar{
+	color: white;
+	width: 80%;
+	
+}
+.handouts_filter_bar form select,.respond_filter_bar form select{
+	padding: 3px 7px;
+	border:none;
+	background:none;
+	color: white;
+	border-bottom: solid 1px white;
+}
+.btn_download{
+	border-radius: 5px;
+	padding: 5px;
+	border:none;
+}
+.display_handouts{
+	padding: 15px;
+	background-color: #3399ff;
+	
+}
+.handouts label{
+	padding: 7px;
+}
+.respond_filter_bar form select{
+	padding: 2px 3px;
+}
+.question{
+	background-color: lightgray;
+	padding: 15px;
+	margin-top: 20px;
+}
+.btn_respond,.btn_post_answer{
+	border:none;
+	background-color: #66a3ff;
+	border-radius: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+
+}
+.btn_respond:hover,.btn_post_answer:hover{
+	color: white;
+}
